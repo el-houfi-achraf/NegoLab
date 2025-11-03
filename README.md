@@ -1,10 +1,6 @@
 # 🎯 NegoLab - Plateforme Premium d'Évaluation des Compétences en Négociation# NegoLab - Votre Arène de Négociation 🎯
 
-
-
 <div align="center">Une application web immersive et ludique pour découvrir votre profil de négociateur et développer vos compétences en négociation.
-
-
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)## 🌟 Fonctionnalités
 
@@ -14,39 +10,31 @@
 
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.5-ff0055?style=for-the-badge&logo=framer)- **5 Profils de Négociateurs** :
 
+**Découvrez votre style unique de négociation à travers une expérience interactive premium** - 🤝 Le Diplomate Collaboratif
 
+- 🎯 Le Stratège Compétitif
 
-**Découvrez votre style unique de négociation à travers une expérience interactive premium**  - 🤝 Le Diplomate Collaboratif
+[Demo Live](https://negolab.vercel.app) · [Signaler un Bug](https://github.com/el-houfi-achraf/NegoLab/issues) · [Demander une Fonctionnalité](https://github.com/el-houfi-achraf/NegoLab/issues) - 🕊️ Le Conciliateur Bienveillant
 
-  - 🎯 Le Stratège Compétitif
-
-[Demo Live](https://negolab.vercel.app) · [Signaler un Bug](https://github.com/el-houfi-achraf/NegoLab/issues) · [Demander une Fonctionnalité](https://github.com/el-houfi-achraf/NegoLab/issues)  - 🕊️ Le Conciliateur Bienveillant
-
-  - 🛡️ L'Observateur Prudent
+- 🛡️ L'Observateur Prudent
 
 </div>  - ⚖️ Le Pragmatique Équilibré
 
-
-
 ---- **Résultats Détaillés** :
 
+## ✨ Aperçu - Graphique de répartition des scores
 
+- Forces spécifiques à votre profil
 
-## ✨ Aperçu  - Graphique de répartition des scores
-
-  - Forces spécifiques à votre profil
-
-NegoLab est une application web de nouvelle génération qui révolutionne l'évaluation des compétences en négociation. À travers un quiz scientifique de 10 questions, découvrez votre profil de négociateur parmi 5 styles distincts et obtenez des insights personnalisés pour développer vos compétences.  - Axes d'amélioration personnalisés
-
-
+NegoLab est une application web de nouvelle génération qui révolutionne l'évaluation des compétences en négociation. À travers un quiz scientifique de 10 questions, découvrez votre profil de négociateur parmi 5 styles distincts et obtenez des insights personnalisés pour développer vos compétences. - Axes d'amélioration personnalisés
 
 ## 🚀 Fonctionnalités Principales- **Expérience Immersive** :
 
-  - Animations fluides à 60 fps
+- Animations fluides à 60 fps
 
-### 💎 **Expérience Utilisateur Premium**  - Design mobile-first responsive
+### 💎 **Expérience Utilisateur Premium** - Design mobile-first responsive
 
-- 🎨 **Design Glassmorphism** avec effets de verre dépoli  - Transitions élégantes entre les écrans
+- 🎨 **Design Glassmorphism** avec effets de verre dépoli - Transitions élégantes entre les écrans
 
 - ✨ **Animations 60fps** fluides et optimisées GPU
 
@@ -55,8 +43,6 @@ NegoLab est une application web de nouvelle génération qui révolutionne l'év
 - 💫 **Transitions élégantes** entre les écrans
 
 - 📱 **Mobile-First** avec design responsive parfait### Prérequis
-
-
 
 ### 🧠 **Évaluation Scientifique**- Node.js 18+
 
@@ -126,21 +112,21 @@ npm install
 
 ## 📦 Installationsrc/
 
-├── app/                    # Next.js App Router
+├── app/ # Next.js App Router
 
-### Prérequis│   ├── layout.tsx         # Layout principal
+### Prérequis│ ├── layout.tsx # Layout principal
 
-- Node.js 18+ │   ├── page.tsx           # Page d'accueil
+- Node.js 18+ │ ├── page.tsx # Page d'accueil
 
-- npm ou yarn│   └── globals.css        # Styles globaux
+- npm ou yarn│ └── globals.css # Styles globaux
 
-├── components/            # Composants React
+├── components/ # Composants React
 
-### Étapes│   ├── WelcomeScreen.tsx  # Écran d'accueil
+### Étapes│ ├── WelcomeScreen.tsx # Écran d'accueil
 
-│   ├── QuizScreen.tsx     # Interface du quiz
+│ ├── QuizScreen.tsx # Interface du quiz
 
-```bash│   └── ResultScreen.tsx   # Écran des résultats
+````bash│ └── ResultScreen.tsx   # Écran des résultats
 
 # 1. Cloner le repository├── data/                  # Données statiques
 
@@ -186,7 +172,7 @@ npm start        # Lancer en production
 
 npm run lint     # Vérifier le code### Personnaliser les Couleurs
 
-```
+````
 
 Les couleurs sont définies dans `tailwind.config.ts`. Vous pouvez modifier :
 
@@ -194,7 +180,7 @@ Les couleurs sont définies dans `tailwind.config.ts`. Vous pouvez modifier :
 
 - Les couleurs primaires et accent
 
-```- Les gradients
+````- Les gradients
 
 NegoLab/- Les animations
 
@@ -248,7 +234,7 @@ NegoLab/- Les animations
 
 └── vercel.json          # Config déploiement## 📝 License
 
-```
+````
 
 Ce projet est sous licence MIT.
 
@@ -268,8 +254,8 @@ Ce projet est sous licence MIT.
 
 - **Warning** : Orange 500Créé avec ❤️ pour améliorer vos compétences en négociation
 
-
 ### Animations
+
 - **Durée** : 300-800ms pour la fluidité
 - **Easing** : `easeInOut`, `spring`
 - **Performance** : GPU-accelerated, 60fps garantis
@@ -291,6 +277,7 @@ vercel --prod
 ```
 
 ### Autres Plateformes
+
 - Netlify
 - AWS Amplify
 - Railway
