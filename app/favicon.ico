@@ -1,0 +1,26 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="6" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Balance/Handshake icon -->
+  <g transform="translate(6, 8)">
+    <!-- Left scale -->
+    <circle cx="4" cy="12" r="3" fill="white" opacity="0.9"/>
+    <line x1="4" y1="9" x2="4" y2="3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Right scale -->
+    <circle cx="16" cy="12" r="3" fill="white" opacity="0.9"/>
+    <line x1="16" y1="9" x2="16" y2="3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Center balance -->
+    <line x1="4" y1="3" x2="16" y2="3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="10" cy="3" r="1.5" fill="white"/>
+    <line x1="10" y1="3" x2="10" y2="0" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>
