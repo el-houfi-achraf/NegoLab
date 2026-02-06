@@ -1,27 +1,5 @@
 # 🎯 NegoLab - Plateforme Premium d'Évaluation des Compétences en Négociation# NegoLab - Votre Arène de Négociation 🎯
 
-<div align="center">Une application web immersive et ludique pour découvrir votre profil de négociateur et développer vos compétences en négociation.
-
-![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)## 🌟 Fonctionnalités
-
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
-
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?style=for-the-badge&logo=tailwind-css)- **Profilage Interactif** : Quiz de 7 questions pour identifier votre style de négociation
-
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.5-ff0055?style=for-the-badge&logo=framer)- **5 Profils de Négociateurs** :
-
-**Découvrez votre style unique de négociation à travers une expérience interactive premium** - 🤝 Le Diplomate Collaboratif
-
-- 🎯 Le Stratège Compétitif
-
-[Demo Live](https://negolab.vercel.app) · [Signaler un Bug](https://github.com/el-houfi-achraf/NegoLab/issues) · [Demander une Fonctionnalité](https://github.com/el-houfi-achraf/NegoLab/issues) - 🕊️ Le Conciliateur Bienveillant
-
-- 🛡️ L'Observateur Prudent
-
-</div>  - ⚖️ Le Pragmatique Équilibré
-
----- **Résultats Détaillés** :
-
 ## ✨ Aperçu - Graphique de répartition des scores
 
 - Forces spécifiques à votre profil
